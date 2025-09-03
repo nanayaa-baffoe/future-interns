@@ -1,0 +1,14 @@
+Starting Nmap 7.97 ( https://nmap.org ) at 2025-06-20 14:29 +0000
+Stats: 0:00:00 elapsed; 0 hosts completed (0 up), 1 undergoing ARP Ping Scan
+ARP Ping Scan Timing: About 100.00% done; ETC: 14:29 (0:00:00 remaining)
+Stats: 0:00:02 elapsed; 0 hosts completed (1 up), 1 undergoing SYN Stealth Scan
+SYN Stealth Scan Timing: About 16.30% done; ETC: 14:29 (0:00:05 remaining)
+Nmap scan report for 192.168.24.137
+Host is up (0.034s latency).
+Not shown: 999 closed tcp ports (reset)
+PORT   STATE SERVICE VERSION
+53/tcp open  domain  dnsmasq 2.51
+MAC Address: B2:D5:F3:10:64:FA (Unknown)
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 10.62 seconds

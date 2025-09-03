@@ -1,0 +1,5 @@
+campaign_id,email,time,message,details
+6,,2025-06-20T11:31:32.3334601Z,Campaign Created,
+6,nanadans59@gmail.com,2025-06-20T11:31:42.331672Z,Email Sent,
+6,nanadans59@gmail.com,2025-06-20T11:34:06.8151578Z,Clicked Link,"{""payload"":{""rid"":[""RipquUQ""]},""browser"":{""address"":""192.168.30.1"",""user-agent"":""Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36""}}"
+6,nanadans59@gmail.com,2025-06-20T11:35:01.2519324Z,Submitted Data,"{""payload"":{""password"":[""testpassword""],""rid"":[""RipquUQ""],""username"":[""user123""]},""browser"":{""address"":""192.168.30.1"",""user-agent"":""Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36""}}"
