@@ -1,2 +1,5 @@
-# FUTURE_CS_01
-Web Application Security Testing Task for Future Interns Cybersecurity Internship
+# FUTURE_CS_01 – Web Vulnerability Testing  
+
+- Tool: OWASP ZAP  
+- Task: Automated reconnaissance & scanning for web vulnerabilities  
+- Deliverables: Vulnerability report + recommendations  
