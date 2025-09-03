@@ -1,59 +1,52 @@
-Task 3: Wi-Fi Security Assessment – Cybersecurity Internship
+# FUTURE_CS_03 – Wi-Fi Security Assessment  
 
-This repository documents Task 3 of the Future Interns Cybersecurity Track (Track Code: CS).
+This project was part of the **Cybersecurity Track (CS)** during the Future Interns Internship.  
 
-Objective:
-To perform a security assessment of a home Wi-Fi network using scanning tools, identify potential vulnerabilities, and provide recommendations for improving wireless network security.
+---
 
-Tools Used:
-- Nmap (Network Mapper) – for scanning connected devices and open ports
-- Windows 10 Command Prompt
-- Router Admin Interface (to review Wi-Fi configuration)
-- (Optional) Wireshark – for analyzing traffic
+## 🎯 Objective  
+To perform a **security assessment of a home Wi-Fi network** by:  
+- Scanning connected devices.  
+- Identifying open ports on the router.  
+- Reviewing Wi-Fi configuration for vulnerabilities.  
+- Providing recommendations for improvement.  
 
-Network Details:
-- Device IP: 192.168.24.184
-- Router IP: 192.168.24.137
+---
 
-What Was Done:
-1. Scanned the local network for active devices using nmap -sn
-2. Scanned the router for open ports using nmap -sV
-3. Logged into the router admin page to review:
-   - Encryption type
-   - Password strength
-   - WPS status
-   - List of connected devices
-4. Documented all findings in a detailed report
-5. Made security recommendations based on observations
+## 🛠️ Tools Used  
+- **Nmap** → Network & port scanning  
+- **Windows 10 Command Prompt**  
+- **Router Admin Interface** → Reviewing configuration  
+- *(Optional)* Wireshark → Traffic analysis  
 
-Results Summary:
+---
 
-Scan Type     | Result
---------------|--------------------------------------------------
-Device Scan   | Only one device found (intern's own PC)
-Port Scan     | Only port 53 (DNS) open on the router
-Router Config | Reviewed by intern manually
+## 🌐 Network Details  
+- Device IP: `192.168.24.184`  
+- Router IP: `192.168.24.137`  
 
-Repository Structure:
-FUTURE_CS_03/
-├── README.md
-├── WiFi_Security_Report.docx
-├── screenshots/
-│   ├── ipconfig_output.png
-│   ├── nmap_device_scan.png
-│   ├── nmap_port_scan.png
-│   └── router_settings.png
-├── data/
-│   ├── port_scan.txt
+---
 
+## 🔎 What Was Done  
+- Ran device discovery using `nmap -sn`  
+- Performed port scanning on router with `nmap -sV`  
+- Logged into router admin panel to review:  
+  - Encryption type  
+  - Password strength  
+  - WPS status  
+  - Connected devices list  
+- Documented all findings and provided security recommendations  
 
-Recommendations:
-- Enable WPA2 or WPA3 encryption
-- Disable WPS if not in use
-- Use a strong Wi-Fi password (12+ characters)
-- Regularly check for unknown connected devices
-- Keep router firmware up to date
+---
 
-Status:
-Task Completed
-Submitted for Certification and LoR
+## 📊 Results Summary  
+
+| Scan Type      | Result                                |
+|----------------|---------------------------------------|
+| Device Scan    | Only one device found (intern's PC)   |
+| Port Scan      | Only port 53 (DNS) open on router     |
+| Router Config  | Reviewed manually                     |
+
+---
+
+## 📂 Project Structure  
